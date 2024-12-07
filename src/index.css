@@ -1,0 +1,66 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Стандартне скидання стилів */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Видалення відступів у списках */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Видалення підкреслення у посиланнях */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Скидання для заголовків */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: normal;
+}
+
+/* Скидання для зображень */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Скидання для форм */
+button,
+input,
+textarea {
+  font: inherit;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+/* Скидання для таблиць */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Загальний стиль для тіла */
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
