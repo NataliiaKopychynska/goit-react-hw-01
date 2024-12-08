@@ -1,0 +1,18 @@
+.imgFrend {
+  width: 80px;
+}
+.nameFrend {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.isOnline {
+  font-size: 20px;
+  line-height: 20px;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
